@@ -8,3 +8,4 @@ clausewise-frontend/dist/
 *.pt
 *.pyc
 .env"*.zip" 
+"*.zip" 
