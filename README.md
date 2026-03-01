@@ -75,21 +75,30 @@ GROQ_API_KEY=your_key_here
 
 ## Project structure
 ```
-clausewise-backend/
-├── main.py
-├── extractor.py
-└── ai_engine/
-    ├── engine.py
-    ├── classifier.py
-    ├── segmenter.py
-    ├── entity_extractor.py
-    ├── risk_scorer.py
-    ├── explainer.py
-    └── onnx_export.py
-
-clausewise-frontend/
-└── src/
-    └── App.jsx
+ClauseWise/
+├── clausewise-backend/
+│   ├── main.py
+│   ├── extractor.py
+│   ├── engine_bridge.py
+│   ├── models.py
+│   └── ai_engine/
+│       ├── __init__.py
+│       ├── engine.py
+│       ├── classifier.py
+│       ├── segmenter.py
+│       ├── entity_extractor.py
+│       ├── risk_scorer.py
+│       ├── explainer.py
+│       └── onnx_export.py
+└── clausewise-frontend/
+    ├── index.html
+    ├── package.json
+    ├── vite.config.js
+    └── src/
+        ├── main.jsx
+        ├── App.jsx
+        ├── App.css
+        └── index.css
 ```
 
 ---
