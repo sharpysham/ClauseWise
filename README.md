@@ -106,6 +106,6 @@ clausewise-frontend/
 
 This is a student project. ClauseWise is not a lawyer and does not give legal advice.
 Always have a professional review important contracts.
-```
+
 
 
