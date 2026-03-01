@@ -1,0 +1,10 @@
+clausewise-backend/venv/
+clausewise-backend/__pycache__/
+clausewise-backend/ai_engine/__pycache__/
+clausewise-backend/models/
+clausewise-frontend/node_modules/
+clausewise-frontend/dist/
+*.onnx
+*.pt
+*.pyc
+.env
