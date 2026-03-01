@@ -7,4 +7,4 @@ clausewise-frontend/dist/
 *.onnx
 *.pt
 *.pyc
-.env
+.env"*.zip" 
