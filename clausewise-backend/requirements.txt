@@ -1,0 +1,22 @@
+# ClauseWise AI Engine — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core ML
+torch>=2.0.0
+transformers>=4.38.0
+sentence-transformers>=2.6.0
+
+# NLP
+spacy>=3.7.0
+# After installing spacy, also run:
+# python -m spacy download en_core_web_sm
+
+# ONNX export + optimization
+onnx>=1.15.0
+onnxruntime>=1.17.0
+
+# PDF text extraction (for your teammates' backend module)
+pdfplumber>=0.10.0
+
+# Utilities
+numpy>=1.24.0
