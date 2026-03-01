@@ -108,8 +108,4 @@ This is a student project. ClauseWise is not a lawyer and does not give legal ad
 Always have a professional review important contracts.
 ```
 
----
 
-## Topics
-```
-nlp legal-tech fastapi react contract-analysis python onnx llm
